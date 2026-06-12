@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Para Você — Minha Música</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="player-page">
+      <section class="left-pane">
+        <div class="cover" id="cover">
+          <!-- Imagem de capa genérica, substitua depois -->
+          <img src="https://picsum.photos/600/600?random=1" alt="Capa" />
+        </div>
+        <div class="meta">
+          <h1 class="title">Para Flávia</h1>
+          <p class="artist">De: Kauã ♥ Flávia</p>
+
+          <div class="retrospective">
+            <h3>Retrospectiva</h3>
+            <div class="stat-grid">
+              <div class="stat-card">
+                <div class="stat-value" id="daysCount">0</div>
+                <div class="stat-label">Dias juntos</div>
+                <div class="stat-desc" id="descDays">Desde 11 de março</div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-value" id="monthsCount">0</div>
+                <div class="stat-label">Meses juntos</div>
+                <div class="stat-desc" id="descMonths">Cada mês, um novo capítulo</div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-value" id="anniversariesCount">0</div>
+                <div class="stat-label">Aniversários</div>
+                <div class="stat-desc" id="descAnn">Momentos especiais comemorados</div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-value" id="memoriesCount">0</div>
+                <div class="stat-label">Memórias</div>
+                <div class="stat-desc" id="descMem">Conversas, risadas e tudo mais que compartilhamos.</div>
+              </div>
+
+              <div class="stat-card wide">
+                <div class="stat-value small" id="favoriteSong">MÚSICAS DO CASAL</div>
+                <div class="stat-label">Sua música</div>
+                <div class="stat-desc" id="descSong">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/44AyOl4qVkzS48vBsbNXaC?utm_source=generator&si=e6b25abf75bf4a7b" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5w50Ywn17sXpDFDhe0Sxtw?utm_source=generator&si=0b4b84a85ee247fb" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5XeFesFbtLpXzIVDNQP22n?utm_source=generator&si=1ab54984e6f04803" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4d0DpU7Odiv0ztvX2GxJlk?utm_source=generator&si=85f8582067b0458a" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+              </div>
+
+              <div class="stat-card wide">
+                <div class="stat-value small" id="topMoment">Momento Favorito</div>
+                <div class="stat-label">Momento que a gente se conheceu</div>
+                <div class="stat-desc" id="descMoment">Deleta tenho ciúmes dessa música.</div>
+              </div>
+            </div>
+            <p class="hint">Edite estes textos diretamente no código (arquivo <code>script.js</code>).</p>
+          </div>
+
+          <div class="controls">
+            <button id="playToggle" class="play">▶︎</button>
+            <button id="openEmbed" class="open-embed">Abrir player</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-pane">
+        <div class="letter">
+          <h2>Uma Cartinha</h2>
+          <p id="letterText">
+            Olá, Amor!! Esse é o meu primeiro presentinho de dias dos namorados para você, um site de novo, 
+eu sei que talvez não seja tanto, mas esse é só o meu primeiro presente.
+          </p>
+          
+
+          <div class="lyrics-block">
+            <h3>Letra / Sobre Nós</h3>
+            <br>
+            Amor, eu te conheci completamente por acaso e me apaixonei muito rápido kkk pelo seu jeito de ser sincera, engraçada, <br>
+            e boba (de uma forma boa), eu não queria nada naquela época, mas acho que Deus tinha outros planos pra mim e colocou você <br>
+            no meu caminho e agradeço muito ele por isso. Você é uma garota incrível, que me faz querer ser uma pessoa melhor e me dá ânimo pra enfrentar o que vier e querer me esforçar só pra me sentir suficiente pra ti.
+            <br><br>
+            Nesses 3 meses que estamos juntos, eu só me apaixonei ainda mais por você e agora em julho, eu vou te ver meu amor, entende o  tanto que isso é importante? Eu vou conhecer a mulher da minha vida pessoalmente, meu amor, eu quero que você saiba que eu nunca vou te abandonar, nunca vou te deixar e não posso te perder, quando eu falo contigo eu sinto um bem danado, meu coração fica quentinho e eu me sinto seguro.
+            <br><br>
+            Por isso, eu quero fazer que você sempre sinta o mesmo quando estiver comigo, eu te prometo que vou fazer de tudo pra te ver feliz e pra gente construir uma família muito linda juntos!
+            
+
+            <div id="lyrics" class="lyrics"></div>
+            
+          </div>
+
+        </div>
+        <h3>Uma música que me lembra você: </h3>
+        <div class="spotify-embed">
+          <!-- O iframe será preenchido por script.js usando a variável SPOTIFY_TRACK_ID -->
+          <div class="embed-wrap" id="embedWrap">
+            <iframe id="spotifyFrame" src="" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
