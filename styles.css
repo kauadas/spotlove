@@ -10,7 +10,7 @@ body{margin:0;background:linear-gradient(180deg,#0f0f0f,var(--bg));color:#fff}
 .player-page{display:flex;gap:32px;padding:48px;max-width:1000px;margin:40px auto}
 .left-pane{width:320px}
 .cover{width:320px;height:320px;background:var(--glass);border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.cover img{width:100%;height:100%;object-fit:contain;display:block}
 .meta{margin-top:18px}
 .title{font-size:28px;margin:0 0 6px}
 .artist{color:var(--muted);margin:0 0 14px}
